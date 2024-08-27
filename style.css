@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bakery{
+    text-align: center;
+
+}
+.more{
+    background-color: burlywood;
+    border: 1.5px solid white;
+    padding: 10px;
+}
+.us{
+    background-color: transparent;
+    border: 1.5px solid white;
+    padding: 10px; 
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    width: 100%;
+    
+}
+.bakery p{
+    font-size: 24px;
+    margin: 10px 10px;
+}
+.btn{
+    margin-top: 15px;
+    padding: 10px 13px;
+    color: white;
+}
+h2{
+    margin-bottom: 15px;
+}
+h1{
+    font-size: 50px;
+}
+.bakery .foo{
+    font-size: 15px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(128, 128, 128 ,0.5);
+    width: 100%;
+    position: fixed;
+    padding-top: 2px;
+}
+.con{
+    width: 40%;
+    padding-left: 60px;
+    font-size: 40px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    padding-right: 50px;
+    font-size: 15px;
+}
+    .ph{
+    background-image: url(drew-coffman-1872.jpg);
+    color: white;
+    background-size:cover ;
+}
+.hambozo img{
+    width: 40%;
+    padding: 20px 30px;
+}
+.new{
+   width: 50%;
+   padding-left: 20px;
+}
+.hambozo{
+    display: flex;
+
+}
+h2{
+}
+.ali{
+    padding: 25px 0;
+}
+.bbb{
+    padding: 20px 0;
+}
+.ccc{
+    padding: 20px 0;
+}
+.item img{
+    width: 40%;
+    position: absolute;
+    right: 50px;
+    bottom: 150px;
+
+}
+.item{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: gainsboro;
+
+}
+.item .zzz{
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 60px;
+
+}
+.parent{
+
+}
+.item .ddd{
+    padding-top: 200px;
+}
+.photo{
+    width: 100%;
+    text-align: center;
+
+
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 50px;
+
+
+}
+.ppp{
+    width: 33.333%;
+    text-align: center;
+}
+ 
+.aass{
+    width: 90%;
+}
+.zzxx{
+    padding: 20px 0;
+}
+.lll{
+    font-size: 13px;
+}
+.maaps{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+.maaps .aps{
+    width: 5%;
+    height: 50%;
+}
+.map{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.aahh{
+    padding: 20px 10px 15px 30px;
+    font-size: 13px;
+    margin-left: 50px;
+}
+.ttt{
+    padding: 20px 10px 20px 30px;
+    margin-left: 50px;  
+}
+.pop{
+    padding-left: 50px;
+}
+.about{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    
+    justify-content: space-between;
+    font-size: 12px;
+    background-color: #403d38;
+    color: #969696;
+    padding-top: 30px;
+}
+.about .ert{
+    width: 15%;
+}
+.lop{
+    margin-left: 100px;
+}
+.ou{
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: white;
+}
+.teto{
+    padding-top: 20px;
+}
+.ttnn{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151515;
+    color: #797979;
+    text-align: center;
+}
+
+@media screen and (max-width:480px) {
+    
+  
+    .navbar ul{
+        /* width: 75%;
+        position: absolute;
+        right: 0;
+        padding: 5px; */
+        display: none;
+    }
+    .navbar .con{
+        width: 20%;
+        position: absolute;
+        left: 0;
+        padding: 5px;
+    }
+    .hambozo{
+        display: block;
+    }
+    .hambozo img{
+        width: 100%;
+    }
+    .hambozo .new{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    .parent{
+        display: block;
+        width: 50%;
+    }
+    .item{
+        display: block;
+    }
+    .parent img{
+        width: 100%;
+    }
+    .item .zzz
+    {
+        width: 100%;
+    }
+    .photo {
+        display: block;
+        width: 100%;
+
+    }
+    .photo img{
+        background-color: aqua;
+        width: 100%;
+    }
+    .content{
+        display: block;
+        background-color:red ;
+        width: 100%;
+        height: 100vh;
+    }
+    .ppp{
+        display: block;
+    }
+    .content img{
+        width: 100px;
+        
+    }
+    .photo{
+        background-color:teal ;
+    }
+
+
+}
